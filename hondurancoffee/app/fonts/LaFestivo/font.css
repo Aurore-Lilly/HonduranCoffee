@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'LaFestivo';
+  src: url('LaFestivo.svg#LaFestivo') format('svg'),
+       url('LaFestivo.ttf') format('truetype'),
+       url('LaFestivo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

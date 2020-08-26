@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <link rel="icon" href="http://www.yourwebsite.com/favicon.png">
+    <title>The Honduran Coffee</title>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"> </script> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/themesberg.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+  <header style="background: url('img/Homepage/home.jpg'); background-size: cover; background-repeat: no-repeat top center; background: linear-gradient(rgba(0, 0, 0, .5) rgba(0, 0, 0, .3));">
+      <div class="navBar clearfix">
+          <div class="navContainer clearfix">
+              <a href="index.html"><img class="logo" src="/img/Homepage/Monte-logoclear.png"></a>
+
+              <nav>
+                  <ul>
+                    <li><a class="red" href="roastedbeans.html">Roasted Beans</a></li>
+                    <li><a class="white" href="greenbeans.html">Green Beans</a></li>
+                    <li><a class="red" href="purchaseinfo.html">Purchase Info</a></li>
+                    <li><a class="white" href="tour.html">Origin Tour</a></li>
+                    <li><a class="red" href="about.html">About</a></li>
+                    <li><a class="white" href="contact.html">Contact</a></li>
+                  </ul>
+              </nav>
+              <a href="#" class="mobileNavIcon">☰</a>
+          </div>
+      </div>
+
+  </header>
+
+
+
+    <!-- code here -->
+        <div class="card-image-contact">
+          <h2 class="card-heading">Contact Form</h2>
+        </div>
+        <div class="col-sm-12 col-md-10 col-lg-10">
+          <hr>
+        </div>
+        <form id="ajaxForm" class="card-form" action="https://getform.io/forms/21224" method="POST">
+            <div class="input">
+                <input type="text" class="input-field" placeholder="John Smith" name="name" required/>
+                <label class="input-label">Name:</label>
+            </div>
+
+            <div class="input">
+                <input type="text" class="input-field" placeholder="Monte Vista" name="companyname"/>
+                <label class="input-label">Company's name:</label>
+            </div>
+
+            <div class="input">
+                <input type="email" class="input-field" placeholder="hello@youremail.com" name="email" required/>
+                <label class="input-label">Email:</label>
+            </div>
+
+              <div class="input1">
+                <label class="interest" style="color:white;">I am interested in:</label>
+              </div>
+              <div class="input2">
+                <div class="contact-form-checkbox">
+                  <input class="input-checkbox" type="checkbox" id="tour" name="tour[]" value="cb3">
+                    <label class="label-checkbox" for="tour">Origin Tour</label>
+                  <input class="input-checkbox" type="checkbox" id="roasted" name="roasted[]" value="cb1">
+                    <label class="label-checkbox" for="roasted">Roasted Beans</label>
+                  <input class="input-checkbox" type="checkbox" id="green" name="green[]" value="cb2">
+                    <label class="label-checkbox" for="green">Green Beans</label>
+                </div>
+              </div>
+
+
+            <div class="input">
+                <textarea type="text" class="input-field2" placeholder="Leave us a message." name="message"></textarea>
+                <label class="input-label"></label>
+            </div>
+            <div class="action">
+                <button type="submit" class="action-button fa-paper-plane-o"><span class="btn-inner">Send</span></button>
+            </div>
+        </form>
+
+
+
+
+    <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <img src="/img/Homepage/Monte-logoclear.png" class="footer-img"/>
+            </div>
+
+
+            <div class="col-xs-6 col-md-4">
+              <ul class="footer-links">
+                <h6 class="foot-links">Quick Links</h6>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="greenbeans.html">Green Beans</a></li>
+                <li><a href="roastedbeans.html">Roasted Beans</a></li>
+                <li><a href="purchaseinfo.html">Purchase Info</a></li>
+                <li><a href="tour.html">Origin Tour</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+              <h6>Stay in touch</h6>
+              <a href="#" class="btn">
+                <span class="btn-inner footer action-button fa-paper-plane-o">Send</span>
+              </a>
+            </div>
+
+
+          </div>
+          <hr>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+           <a href="index.html">Monte Vista Coffee Farm</a>.
+              </p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <a target="_blank" href="" class="social-button--instagram">
+                  <i class="icon--instagram"></i>
+                </a>
+                <a target="_blank" href="" class="social-button--youtube">
+                  <i class="icon--youtube"></i>
+                </a>
+                <a target="_blank" href="" class="social-button--facebook">
+                  <i class="icon--facebook"></i>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/nav.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/contact.js"></script>
+</body>
+</html>

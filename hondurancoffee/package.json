@@ -1,0 +1,30 @@
+{
+  "name": "hondurancoffee",
+  "version": "1.0.0",
+  "description": "Honduran Cafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:jquery": "cp node_modules/jquery/dist/jquery.slim.min.js static/jquery/",
+    "build:images": "cp -R src/assets/images/ static/images/",
+    "build": "npm-run-all -p build:*"
+  },
+  "author": "Aurore Lilly",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.10",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.4.4",
+    "animate.css": "^4.1.0",
+    "bootstrap": "^4.5.0",
+    "bxslider": "^4.2.14",
+    "jquery": "^1.12.4",
+    "min": "^0.2.2",
+    "popper.js": "^1.16.0",
+    "scrollmagic-plugin-gsap": "^1.0.4",
+    "slim": "^0.9.0"
+  }
+}
