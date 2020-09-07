@@ -8698,12 +8698,11 @@ ul.white {
       opacity: 1; }
     @media screen and (min-width: 1024px) {
       .slideshow .slide .caption {
-        padding: 100px 100px auto;
-        margin-top: 508px; } }
+        padding: 50px 50px auto;
+        margin-top: 360px; } }
     @media screen and (min-width: 1200px) {
       .slideshow .slide .caption {
-        margin-top: 320px;
-      margin-bottom: 70px;} }
+        margin-top: 180px;} }
     .slideshow .slide .image-container {
       position: absolute;
       top: 0;
@@ -8775,7 +8774,7 @@ ul.white {
       @media (max-width: 800px) {
         .slideshow .slide div.title-right {
           font: 600 28px/.8 'Montserrat';
-          margin-bottom: 289px;
+          margin-bottom: 220px;
           font-style: italic; } }
       @media screen and (max-width: 450px) {
         .slideshow .slide div.title-right {
