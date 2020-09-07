@@ -8295,6 +8295,7 @@ input {
   display: none;
   background: #C1432A;
   padding: 20px;
+  color: white;
   margin-top: 16px;
   margin-bottom: 16px; }
   .success.is-active {
