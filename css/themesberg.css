@@ -313,7 +313,8 @@ input[type="checkbox"] {
 
 textarea {
   overflow: auto;
-  resize: vertical; }
+  resize: vertical;
+  color: white;}
 
 fieldset {
   min-width: 0;
@@ -8308,7 +8309,7 @@ input {
       font-size: 12px; } }
   .input-field:focus, .input-field:valid {
     outline: 0;
-    border-bottom-color: black;
+    border-bottom: 2px solid #eee;
     color: #E2DFDA; }
     .input-field:focus + .input-label, .input-field:valid + .input-label {
       font-family: 'Montserrat-Light';
