@@ -7356,7 +7356,7 @@ nav ul {
   list-style-type: none; }
   @media screen and (max-width: 766px) {
     nav ul {
-      padding-top: 118px;
+      padding-top: 88px;
       padding-left: 23px;
       text-align: left; } }
   @media screen and (min-width: 766px) {
@@ -7378,7 +7378,7 @@ nav ul {
 
 nav ul li {
   margin: 0; }
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 766px) {
     nav ul li {
       display: inline-block;
       padding-bottom: 0; } }
