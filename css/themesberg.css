@@ -9137,10 +9137,10 @@ p.p-grid {
   justify-content: flex-start; }
   @media (max-width: 600px) {
     p.p-grid {
-      letter-spacing: 1px;
-      font-size: 8px;
+      letter-spacing: 0px;
+      font-size: 13px;
       padding: 5px 25px;
-      line-height: 1rem; } }
+      line-height: 1.4rem; } }
 
 .ad-grid {
   max-width: 1200;
