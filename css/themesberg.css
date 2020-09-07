@@ -8683,7 +8683,8 @@ ul.white {
         margin-top: 508px; } }
     @media screen and (min-width: 1200px) {
       .slideshow .slide .caption {
-        margin-top: 220px; } }
+        margin-top: 320px;
+      margin-bottom: 70px;} }
     .slideshow .slide .image-container {
       position: absolute;
       top: 0;
@@ -8725,7 +8726,7 @@ ul.white {
       text-align: left;
       max-width: 1000px;
       text-shadow: 1px 2px 2px black;
-      font: 600 30px/2 'Montserrat';
+      font: 600 28px/2 'Montserrat';
       font-style: italic;
       padding-right: 65px;
       text-transform: uppercase;
@@ -8747,7 +8748,7 @@ ul.white {
       max-width: 1000px;
       text-align: right;
       text-shadow: 1px 2px 2px black;
-      font: 600 30px/3.2 'Montserrat';
+      font: 600 28px/3.2 'Montserrat';
       font-style: italic;
       text-transform: uppercase;
       padding-left: 56px;
@@ -8768,7 +8769,7 @@ ul.white {
         .slideshow .slide div.title-right {
           margin-bottom: 100px; } }
     .slideshow .slide span.title {
-      font: 300 120px/.8 'LaFestivo';
+      font: 300 100px/.8 'LaFestivo';
       text-shadow: 1px 2px 2px black;
       text-transform: capitalize;
       text-align: right; }
@@ -8776,7 +8777,7 @@ ul.white {
         .slideshow .slide span.title {
           font: 300 48px/1.2 'LaFestivo'; } }
     .slideshow .slide div.text p {
-      font: 400 28px/1.2 'Montserrat';
+      font: 400 22px/1.2 'Montserrat';
       margin: 0 auto;
       padding-bottom: 20px;
       line-height: 1.4; }
