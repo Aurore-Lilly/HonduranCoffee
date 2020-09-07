@@ -9026,11 +9026,11 @@ h1.text-shadow:hover {
         .flip > .back p {
           font-size: 1.2rem; } }
       .on {
-      -webkit-transform: rotateX(-180deg);
+      -webkit-transform: rotateY(-180deg);
       }
 
       .off {
-    -webkit-transform: rotateX(0deg);
+    -webkit-transform: rotateY(0deg);
       }
 
 .text-shadow {
