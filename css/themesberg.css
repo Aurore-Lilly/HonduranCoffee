@@ -8699,10 +8699,11 @@ ul.white {
     @media screen and (min-width: 1024px) {
       .slideshow .slide .caption {
         padding: 50px 50px auto;
-        margin-top: 360px; } }
+        margin-top: 284px; } }
     @media screen and (min-width: 1200px) {
       .slideshow .slide .caption {
-        margin-top: 180px;} }
+        margin-top: 180px;
+        margin-bottom: 40px;} }
     .slideshow .slide .image-container {
       position: absolute;
       top: 0;
@@ -8740,18 +8741,18 @@ ul.white {
       justify-content: center;
       align-items: center; }
     .slideshow .slide div.title-left {
-      margin: 0 auto auto;
+      margin: 0 auto 15px;
       text-align: left;
       max-width: 1000px;
       text-shadow: 1px 2px 2px black;
-      font: 600 28px/2 'Montserrat';
+      font: 600 36px/2 'Montserrat';
       font-style: italic;
       padding-right: 65px;
       text-transform: uppercase;
       letter-spacing: 0.35em; }
       @media (max-width: 800px) {
         .slideshow .slide div.title-left {
-          font: 600 28px/1.5 'Montserrat';
+          font: 600 22px/1.5 'Montserrat';
           margin-top: 400px;
           font-style: italic; } }
       @media screen and (max-width: 450px) {
@@ -8766,15 +8767,15 @@ ul.white {
       max-width: 1000px;
       text-align: right;
       text-shadow: 1px 2px 2px black;
-      font: 600 28px/3.2 'Montserrat';
+      font: 600 36px/3.2 'Montserrat';
       font-style: italic;
       text-transform: uppercase;
       padding-left: 56px;
       letter-spacing: 0.35em; }
       @media (max-width: 800px) {
         .slideshow .slide div.title-right {
-          font: 600 28px/.8 'Montserrat';
-          margin-bottom: 220px;
+          font: 600 22px/.8 'Montserrat';
+          margin-bottom: 70px;
           font-style: italic; } }
       @media screen and (max-width: 450px) {
         .slideshow .slide div.title-right {
@@ -8787,7 +8788,7 @@ ul.white {
         .slideshow .slide div.title-right {
           margin-bottom: 100px; } }
     .slideshow .slide span.title {
-      font: 300 100px/.8 'LaFestivo';
+      font: 300 88px/.8 'LaFestivo';
       text-shadow: 1px 2px 2px black;
       text-transform: capitalize;
       text-align: right; }
