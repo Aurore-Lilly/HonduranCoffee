@@ -8648,7 +8648,7 @@ ul.white {
         font-size: 12px; } }
     @media screen and (max-width: 414px) {
       .btn .btn-inner {
-        font-size: 8px; } }
+        font-size: 10px; } }
     .btn .btn-inner:hover {
       color: #C1432A; }
   .btn:hover {
@@ -8758,7 +8758,7 @@ ul.white {
       @media screen and (max-width: 450px) {
         .slideshow .slide div.title-left {
           margin-top: 230px;
-          font: 600 16px/1.2 'Montserrat';
+          font: 600 14px/1.2 'Montserrat';
           text-align: center;
           font-style: italic;
           padding-right: 35px; } }
@@ -8779,7 +8779,7 @@ ul.white {
           font-style: italic; } }
       @media screen and (max-width: 450px) {
         .slideshow .slide div.title-right {
-          font: 600 16px/1.2 'Montserrat';
+          font: 600 14px/1.2 'Montserrat';
           text-align: center;
           margin-bottom: 150px;
           padding-left: 36px;
@@ -8794,7 +8794,7 @@ ul.white {
       text-align: right; }
       @media screen and (max-width: 450px) {
         .slideshow .slide span.title {
-          font: 300 48px/1.2 'LaFestivo'; } }
+          font: 300 40px/1.2 'LaFestivo'; } }
     .slideshow .slide div.text p {
       font: 400 22px/1.2 'Montserrat';
       margin: 0 auto;
