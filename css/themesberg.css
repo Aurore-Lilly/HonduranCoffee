@@ -8319,8 +8319,7 @@ input {
     .input-field:focus + .input-label, .input-field:valid + .input-label {
       font-family: 'Montserrat-Light';
       font-size: 16px;
-      color: #E2DFDA;
-      transform: translateY(-1.5rem); }
+      color: #E2DFDA; }
       @media screen and (max-width: 414px) {
         .input-field:focus + .input-label, .input-field:valid + .input-label {
           font-size: 12px; } }
