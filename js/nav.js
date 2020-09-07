@@ -13,7 +13,7 @@ $mobileNav.click(function(event){
 });
 
 $(window).resize(function(){
-    if( window.innerWidth > 650 ) {
+    if( window.innerWidth > 766 ) {
         $nav.removeAttr('style');
     }
 });
