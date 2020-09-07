@@ -8248,6 +8248,17 @@ input {
     .card-form {
       margin: 0 100px; } }
 
+.success {
+  display: none;
+  background: #C1432A;
+  padding: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  &.is-active {
+    display: block;
+  }
+}
+
 .input {
   display: flex;
   flex-direction: column-reverse;
