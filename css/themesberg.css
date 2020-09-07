@@ -8280,13 +8280,14 @@ input {
 .input-label {
   color: #E2DFDA;
   position: absolute;
-  top: .5rem;
+  top: 0.5rem;
   font-size: 16px;
   font-family: 'Montserrat-Light';
   transition: .25s ease; }
   @media screen and (max-width: 414px) {
     .input-label {
       font-size: 12px;
+      top: -0.5rem;
     }
 
 .success {
