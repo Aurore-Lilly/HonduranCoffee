@@ -8281,8 +8281,13 @@ input {
   color: #E2DFDA;
   position: absolute;
   top: .5rem;
+  font-size: 16px;
   font-family: 'Montserrat-Light';
   transition: .25s ease; }
+  @media screen and (max-width: 414px) {
+    .input-label {
+      font-size: 12px;
+    }
 
 .success {
   display: none;
@@ -8313,7 +8318,7 @@ input {
     color: #E2DFDA; }
     .input-field:focus + .input-label, .input-field:valid + .input-label {
       font-family: 'Montserrat-Light';
-      font-size: 18px;
+      font-size: 16px;
       color: #E2DFDA;
       transform: translateY(-1.5rem); }
       @media screen and (max-width: 414px) {
