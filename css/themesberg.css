@@ -7780,7 +7780,7 @@ figure figcaption {
   letter-spacing: 1; }
   @media screen and (max-width: 768px) {
     figure figcaption {
-      font-size: 10px;
+      font-size: 12px;
       line-height: 16px;
       padding-top: 10px;
       letter-spacing: .6; } }
